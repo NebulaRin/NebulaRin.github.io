@@ -1,0 +1,58 @@
+
+:root{
+    --red:rgb(162, 9, 9);
+
+}
+
+@media screen and (min-width: 800px) {
+    
+    html{
+        font-size: 14px;
+    }
+
+    header .nav_off{
+
+        width: auto;
+        height: auto;
+        margin: 0;
+        padding: auto;
+        position: static;
+        background-color: transparent;
+        display: flex;
+    }
+
+    header .nav_off li {
+        border: none;
+    }
+
+    #btn_menu{
+        display: none;
+    }
+    
+
+}
+
+
+@media screen and (min-width: 1200px) {
+    html{
+        font-size: 16px;
+    }
+
+    header{
+        height: 85px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 200;
+        background-color: var(--red);
+    }
+
+    header .logo {
+        max-width: 80px;
+    }
+
+    body{
+        margin-top: 85px;
+    }
+
+}

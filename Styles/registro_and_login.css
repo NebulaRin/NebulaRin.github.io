@@ -1,0 +1,151 @@
+
+html{
+    font-size: 10px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+:root{
+    --border:rgba(189, 188, 188, 0.878);
+    --blue:rgb(0, 85, 255);
+}
+
+
+body{
+    background-image: url("../IMGs/form_background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+/* section */
+
+section{
+    width: 90%;
+    /* margin: 20px auto; */
+
+    /* max-width: 1200px; */
+    max-width: 900px;
+    height: auto;
+    padding: 20px;
+    background-color: #fff;
+    margin: 100px auto 0 auto;
+    box-shadow: 5px 5px 10px 0 rgb(94, 94, 94);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+section h1{
+    text-align: center;
+}
+
+/* Form and inputs */
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+}
+
+form input{
+
+    width: 100%;
+    border: none;
+    outline: 1px solid var(--border);
+    padding: 15px 10px;
+    margin: 10px 0;
+}
+
+.form_region{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0;
+    border: 1px solid var(--border);
+    padding: 5px 0;
+}
+
+form select{
+    padding: 10px;
+    border:none;
+    border-radius: 5px;
+    outline: 1px solid var(--blue);
+}
+
+form input[type="submit"]{
+    background-color: #fff;
+    color: var(--blue);
+    width: 60%;
+    margin-top: 20px ;
+    transition: all 0.4s;
+    outline: 1px solid var(--blue);
+}
+
+
+form input[type="submit"]:hover{
+
+    background-color: var(--blue);
+    color: #fff;
+    cursor: pointer;
+    outline: 1px solid #fff;
+    transition: all 0.4s;
+
+
+}
+
+/* LINK */
+
+.error,.success{
+    width: 80%;
+    max-width: 400px;
+    color: rgba(0, 0, 0, 0.776);
+    padding: 20px;
+    text-align: center;
+}
+
+.error{
+    background-color: rgba(204, 14, 14, 0.834);
+}
+
+.success{
+    background-color: rgb(7, 148, 7);
+}
+
+a{
+    width: 50%;
+    max-width: 200px;
+    display: block;
+    margin: 10px auto;
+    padding: 5px 10px;
+    text-align: center;
+    outline: 1px solid var(--blue);
+    transition: all 0.4s;
+}
+
+a:hover{
+    background-color: var(--blue);
+    color: #fff;
+    transition: all 0.4s;
+}
+
+@media screen and (min-width: 1200px){
+    
+    html{
+        font-size: 16px;
+    }
+}

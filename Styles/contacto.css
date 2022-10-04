@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css?family=Spartan&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.contacto {
+  background: #f8f4e5;
+  padding: 50px 100px;
+  border-top: 10px solid blueviolet;
+}
+
+label, input, textarea {
+  width: 100%;
+  font-size: 12pt;
+  line-height: 24pt;
+  font-family: "Spartan";
+}
+
+input {
+  margin-bottom: 24pt;
+}
+
+
+em {
+  color: red;
+  font-weight: bold;
+}
+
+input, textarea {
+  border: none;
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  background: floralwhite;
+  padding-left: 5px;
+  outline: none;
+}

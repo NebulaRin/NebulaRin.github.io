@@ -1,0 +1,67 @@
+
+.content{
+    width: 100%;
+    height: 100vh;
+
+}
+
+.descargar{
+
+    width: 100%;
+    height: 100%;
+
+    background-image: url("../IMGs/descargar.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.SO{
+
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.351);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.SO img{
+    width: 100%;
+    max-width: 350px;
+    overflow: hidden;
+}
+
+.window, .linux{
+    
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button{
+    
+    border: none;
+    background-color: #fff;
+    color: rgba(13, 65, 188, 0.833);
+    outline: 1px solid rgba(13, 65, 188, 0.833);
+    padding: 20px ;
+    display: block;
+    margin: 10px 0;
+    transition: all 0.4s;
+}
+
+button:hover{
+    background-color: blue;
+    color: #fff;
+    outline: 1px solid #fff;
+    transition: all 0.4s;
+    cursor: pointer;
+}
